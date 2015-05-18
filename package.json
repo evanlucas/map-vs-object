@@ -1,0 +1,28 @@
+{
+  "name": "map-vs-object",
+  "version": "1.0.0",
+  "description": "Very simple map vs object benchmarks",
+  "main": "set.js",
+  "dependencies": {
+    "beautify-benchmark": "~0.2.4",
+    "benchmark": "~1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node get.js && node set.js && node delete.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/map-vs-object"
+  },
+  "keywords": [
+    "map",
+    "object"
+  ],
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanlucas/map-vs-object/issues"
+  },
+  "homepage": "https://github.com/evanlucas/map-vs-object"
+}
